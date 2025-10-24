@@ -1,0 +1,27 @@
+# 数据爬取模块依赖
+
+# HTTP 请求
+requests>=2.31.0
+httpx>=0.25.0
+aiohttp>=3.9.0
+
+# HTML 解析
+beautifulsoup4>=4.12.0
+lxml>=4.9.0
+
+# 浏览器自动化（可选，用于JS渲染页面）
+selenium>=4.15.0
+
+# 反爬工具
+fake-useragent>=1.4.0
+
+# 数据处理
+pandas>=2.0.0
+
+# 日志
+loguru>=0.7.0
+
+# 工具
+validators>=0.22.0
+python-dateutil>=2.8.0
+
